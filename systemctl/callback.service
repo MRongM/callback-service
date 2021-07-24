@@ -1,9 +1,0 @@
-[Unit]
-Description=Callback Service
-
-
-[Service]
-ExecStart=/root/.pyenv/shims/python /root/src/py-otils/otils/server.py 8064 /root/src/callback-service/blog/api.py&
-
-[Install]
-WantedBy=multi-user.target
